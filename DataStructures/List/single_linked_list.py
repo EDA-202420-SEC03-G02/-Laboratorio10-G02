@@ -187,7 +187,7 @@ def insert_element(lst, elem, pos):
 def default_sort_criteria(element1, element2):
     return element1 < element2
 
-#TODO selection sort completar single_linked: EST-1
+
 def selection_sort(my_list, sort_crit):
     if my_list['size'] < 2:  # Si la lista tiene menos de 2 elementos, ya está ordenada.
         return my_list
@@ -209,7 +209,7 @@ def selection_sort(my_list, sort_crit):
 
     return my_list
 
-#TODO insertion sort completar single_linked: EST-3
+
 def insertion_sort(my_list, sort_crit):
     if my_list['size'] < 2:  # Si la lista tiene menos de 2 elementos, ya está ordenada.
         return my_list
@@ -249,7 +249,6 @@ def add_in_order(sorted_list, elem, sort_crit):
 
     sorted_list['size'] += 1
 
-#TODO shell sort completar single_linked: EST-1
 def shell_sort(my_list, sort_crit):
     n = my_list['size']
     gap = n // 2  # Se inicia con un hueco de la mitad
@@ -270,7 +269,7 @@ def shell_sort(my_list, sort_crit):
 
     return my_list
 
-#TODO merge sort completar single_linked: EST-3
+
 def merge_sort(my_list, sort_crit):
     if my_list['size'] < 2:  # Si la lista tiene menos de 2 elementos, ya está ordenada.
         return my_list
@@ -300,7 +299,7 @@ def merge(left, right, sort_crit):
 
     return merged
 
-#TODO quick sort completar single_linked: EST-3
+
 def quick_sort(my_list, sort_crit):
     if my_list['size'] < 2:  # Si la lista tiene menos de 2 elementos, ya está ordenada.
         return my_list

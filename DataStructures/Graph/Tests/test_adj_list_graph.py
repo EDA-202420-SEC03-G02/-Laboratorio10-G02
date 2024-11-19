@@ -398,7 +398,7 @@ def sub_list(lst, pos, numelem):
 
 import random
 
-# TODO selection sort completar array: EST-2
+
 def selection_sort(lst, sort_crit):
     size = lst['size']
     elements = lst['elements']
@@ -415,7 +415,6 @@ def selection_sort(lst, sort_crit):
     return lst  # Retornamos el diccionario con la lista ordenada
 
 
-# TODO insertion sort completar array: EST-2
 def insertion_sort(lst, sort_crit):
     size = lst['size']
     elements = lst['elements']
@@ -438,7 +437,7 @@ def insertion_sort(lst, sort_crit):
     return lst  # Retornar el diccionario con la lista ordenada
 
 
-# TODO shell sort completar array: EST-2
+
 def shell_sort(lst, sort_crit):
     size = lst['size']
     elements = lst['elements']
@@ -467,7 +466,7 @@ def shell_sort(lst, sort_crit):
     return lst  # Devolvemos el diccionario con la lista ordenada.
 
 
-# TODO merge sort completar array: EST-2
+
 def merge_sort(lst, sort_crit):
     size = lst['size']
     elements = lst['elements']
@@ -522,7 +521,6 @@ def merge(left, right, sort_crit):
     return {'size': len(merged), 'elements': merged} 
 
 
-# TODO quick sort completar array: EST-1
 def quick_sort(lst, sort_crit):
     quick_sort_recursive(lst, 0, lst['size'] - 1, sort_crit)
 
